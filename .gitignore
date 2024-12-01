@@ -1,0 +1,53 @@
+# General
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Python
+flask-backend/venv/
+flask-backend/__pycache__/
+flask-backend/*.pyc
+flask-backend/*.pyo
+flask-backend/.pytest_cache/
+flask-backend/.mypy_cache/
+flask-backend/.coverage
+
+# Node.js (React Frontend)
+react-frontend/node_modules/
+react-frontend/.env
+react-frontend/build/
+react-frontend/dist/
+react-frontend/.cache/
+
+# Docker
+*.env
+.dockerignore
+
+# Kubernetes YAML files
+kubernetes/*.yaml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore Docker Compose override files
+docker-compose.override.yml
+
+# Ignore local IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Git-specific
+.git/
